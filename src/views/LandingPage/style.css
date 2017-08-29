@@ -1,12 +1,12 @@
 body {
   top: 0;
   height: 100vh;
-  background: linear-gradient(to right,  #d0d8db 0%,#d0d8db 50%,#ffffff 50%,#ffffff 100%);
+  background: linear-gradient(to right, #d0d8db 0%, #d0d8db 50%, #ffffff 50%, #ffffff 100%);
   background-attachment: fixed;
 }
 
 #page-title {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   font-size: 24px;
@@ -15,4 +15,15 @@ body {
 
 #landing-page {
   display: flex
+}
+
+#page-wall {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  font-size: 130px;
+  width: 300px;
+  line-height: 120px;
+  color: white;
+  font-weight: bold;
 }

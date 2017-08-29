@@ -53,12 +53,3 @@ export function fetchData() {
             });
     };
 }
-
-export const SELECTED_IMAGE = 'SELECTED_IMAGE'
-
-export function selectImage(image) {
-  return {
-    type: SELECTED_IMAGE,
-    image
-  }
-}

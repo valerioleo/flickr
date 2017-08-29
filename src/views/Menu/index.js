@@ -7,7 +7,7 @@ class Menu extends Component {
   render(){
     return(
       <div id="menu">
-        MENU >
+        YOU FLICKR FEED
       </div>
     )
   }

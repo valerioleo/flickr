@@ -4,7 +4,6 @@ import './style.css'
 
 import PhotoGallery from '../PhotoGallery'
 import Menu from '../Menu'
-import ImageSelector from '../ImageSelector'
 
 // ### ACTIONS
 import {fetchData} from 'actions'
@@ -17,10 +16,10 @@ class LandingPage extends Component {
   render(){
     return(
       <div id="landing-page">
-        <h3 id="page-title">TITLE</h3>
+        <h3 id="page-title">FLICKR FEED</h3>
         <Menu />
         <PhotoGallery />
-        <ImageSelector />
+        <span id="page-wall">HAND PICKED SHOTS</span>
       </div>
     )
   }

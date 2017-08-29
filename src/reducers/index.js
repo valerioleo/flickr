@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux'
-import {QUERY_PHOTO_REQUEST, QUERY_PHOTO_FAILURE, QUERY_PHOTO_SUCCESS, SELECTED_IMAGE} from 'actions'
+import {QUERY_PHOTO_REQUEST, QUERY_PHOTO_FAILURE, QUERY_PHOTO_SUCCESS} from 'actions'
 
 function isFetching(state = false, action) {
   switch (action.type) {
@@ -24,16 +24,6 @@ function items(state = [], action) {
   }
 }
 
-function selectedImage(state = [], action) {
-  switch (action.type) {
-    case SELECTED_IMAGE:
-      return action.image;
-
-    default:
-      return state;
-  }
-}
-
 function errors(state = [], action) {
   console.log(action);
   switch (action.type) {
@@ -45,6 +35,6 @@ function errors(state = [], action) {
   }
 }
 
-const rootReducer = combineReducers({items, isFetching, errors, selectedImage})
+const rootReducer = combineReducers({items, isFetching, errors})
 
 export default rootReducer

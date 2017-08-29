@@ -4,11 +4,10 @@ import './style.css'
 import PhotoItem from '../PhotoItem'
 
 // ### ACTIONS
-import {} from 'actions'
 
 class PhotoGallery extends Component {
   renderPhotoItems() {
-    return this.props.items.map(item => <PhotoItem selected={item.title === this.props.selectedImage} item={item} key={item.link}/>) //using the link as key because there is no id in the photo item
+    return this.props.items.map(item => <PhotoItem item={item} key={item.link}/>) //using the link as key because there is no id in the photo item
   }
 
   render(){
