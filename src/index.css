@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+@font-face {
+  font-family: 'goudy';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/goudy.otf") format("opentype");
+}

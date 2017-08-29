@@ -1,0 +1,17 @@
+#image-selector {
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+  background: black;
+  display: flex;
+  color: white;
+  font-size: 34px;
+}
+
+#image-selector div:first-of-type {
+  margin-right: 20px;
+}
+
+#image-selector div {
+  padding: 10px;
+}

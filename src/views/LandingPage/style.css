@@ -1,0 +1,18 @@
+body {
+  top: 0;
+  height: 100vh;
+  background: linear-gradient(to right,  #d0d8db 0%,#d0d8db 50%,#ffffff 50%,#ffffff 100%);
+  background-attachment: fixed;
+}
+
+#page-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-family: 'goudy', serif;
+}
+
+#landing-page {
+  display: flex
+}
