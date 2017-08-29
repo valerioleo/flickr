@@ -26,4 +26,5 @@ body {
   line-height: 120px;
   color: white;
   font-weight: bold;
+  z-index: 0;
 }
